@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="game-title">Guessing Game!</h1>
+      <button class="btn btn-newgame">Start a new game</button>
+      <p class="instruction">Guess a number between 1-100:</p>
+      <form class="input-box">
+        <input type="number" class="number-input" min="1" max="100" required />
+        <button class="btn btn-guess">Guess</button>
+      </form>
+      <div class="prediction-bar-box">
+        <div class="prediction-bar"></div>
+      </div>
+      <p class="text-result">You guessed 89 that is too high</p>
+      <div class="last-record">
+        <h2 class="recorded-guess-message">Your recorded Guesses:</h2>
+        <p class="last-record">You guessed 32 that is to low</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
