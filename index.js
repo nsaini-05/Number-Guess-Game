@@ -4,7 +4,6 @@ let lastGuess = [];
 let gameOver = false;
 let inputValue = 0;
 let highestScore = 0;
-console.log("Secret Value", secretValue);
 
 const loadInitialState = () => {
   chanceNumber = 5;
@@ -37,7 +36,6 @@ const measureCloseness = (guessNumber, secretValue, chanceNumber) => {
     guessNumber > secretValue ? 1 : guessNumber < secretValue ? -1 : 0;
   switch (result) {
     case 1:
-      console.log("Too High");
       handleUIChanges(
         `You guessed ${guessNumber} that is too high`,
         guessNumber / secretValue,
