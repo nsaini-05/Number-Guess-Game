@@ -6,7 +6,7 @@
 <img width="1057" alt="Screenshot 2023-06-19 at 9 07 29 PM" src="https://github.com/nsaini-05/Number-Guess-Game/assets/12828781/51d0dcd8-98b2-475b-b22d-33dd28052529">
 
 # Number Guessing Game
-The Number Guessing Game is an interactive JavaScript game where players must guess a randomly generated number within a specified range.Game comes with the probablity bar to display how close the guess was.User is provided with 5 chances to guess a number and the highest score is stored and retrieved from local storage.
+The Number Guessing Game is an interactive JavaScript game where players must guess a randomly generated number within a specified range. Game comes with the probablity bar to display how close the guess was. User is provided with 5 chances to guess a number and the highest score is stored and retrieved from local storage.
 
 ## Features
 - Storing the highest score
