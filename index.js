@@ -85,7 +85,7 @@ const gameOverState = () => {
   button.disabled = true;
   button.style.background = "#7b788e";
   button.style.cursor = "not-allowed";
-  document.querySelector("body").style.backgroundColor = "#ffa8a8";
+  document.querySelector("body").style.backgroundColor = "#E39594";
 };
 
 const loadWinScreen = () => {
@@ -99,7 +99,7 @@ const loadWinScreen = () => {
   button.style.background = "#7b788e";
   button.style.cursor = "not-allowed";
   const startGameButton = document.querySelector(".btn-newgame");
-  document.querySelector("body").style.backgroundColor = "#96f2d7";
+  document.querySelector("body").style.backgroundColor = "#9AB19A";
 };
 
 const showLastRecord = () => {
