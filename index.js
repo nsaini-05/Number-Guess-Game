@@ -24,7 +24,7 @@ const comparison = () => {
   } else {
     chanceNumber = chanceNumber - 1;
     lastGuess.push(inputValue);
-    if (lastGuess.length > 1) {
+    if (lastGuess.length >= 1) {
       showLastRecord();
     }
     measureCloseness(inputValue, secretValue, chanceNumber);
@@ -105,9 +105,7 @@ const loadWinScreen = () => {
 const showLastRecord = () => {
   const last_guess_element = document.querySelector(".last-guess");
   last_guess_element.style.display = "block";
-  last_guess_element.textContent = `You guessed ${
-    lastGuess[lastGuess.length - 2]
-  }`;
+  last_guess_element.textContent = `You guessed [${lastGuess.toString()}]`;
 };
 
 loadInitialState();
